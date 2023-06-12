@@ -1,0 +1,514 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/*Header ection starts here*/
+
+/*nav bar starts here*/
+header > nav > .navbar{
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+header > nav > .navbar > div{
+	display: flex;
+	padding-top: 20px;
+	background-color: #FFFFFF;
+}
+header > nav > .navbar > div > ul{
+	display: flex;
+	margin-left: 500px;
+}
+header > nav > .navbar > div > ul > li{
+	list-style-type: none;
+}
+header > nav > .navbar > div > ul > li > a{
+	text-decoration: none;
+	margin: 10px;
+	color: black;
+	font-size: 25px;
+	font-weight: bold;
+}
+header > nav > .navbar > div > ul > li > a:hover{
+	color: orange;
+	transition: 0.5s;
+}
+header > nav > .navbar > div > a{
+	padding-left: 45px;
+}
+header > nav > .navbar > div > a > img{
+	height: 80px;
+	width: 80px;
+	border-radius: 40px;
+}
+header > nav > .navbar > div > h3 > a{
+	color: black;
+	text-decoration: none;
+	padding-left: 25px;
+	font-weight: bolder;
+	font-size: 18px;
+}
+header > nav > .navbar > div > h3> a:hover{
+	color: orange;
+	transition: 0.5s;
+}
+
+/* On screens that are 1080px */
+@media screen and (max-width: 1080px) {
+  header > nav > .navbar > div > ul{
+  	margin-left: 150px;
+  }
+}
+/*nav bar ends*/
+
+
+/*hero section starts here*/
+/*about section starts here*/
+header > section > .hero-container > .hero-image{
+	background-image: url('../images/heroimage.jpg');
+	height: 700px;
+	background-size: cover;
+	margin-top: 10px;
+}
+header > section > .hero-container > .hero-image > .hero-text{
+	text-align: center;
+	color: pink;
+	font-weight: bold;
+	font-size: 18px;
+	padding-top: 12em;
+}
+header > section > .hero-container > .hero-image > .hero-text > h2{
+	padding-top: 6px;
+}
+header > section > .hero-container > .hero-image > .hero-text > p{
+	padding-top: 15px;
+	font-style: italic;
+	padding-bottom: 40px;
+}
+header > section > .hero-container > .hero-image > .hero-text > a{
+	color: black;
+	text-decoration: none;
+	border: 5px  solid orange;
+	border-radius: 20px;
+	padding: 15px 30px;
+	justify-content: center;
+	background-color: orange; 
+	font-weight: bolder;
+}
+
+
+@media screen and (max-width: 1080px) {
+	header > section > .hero-container > .hero-image > .hero-text{
+		padding-top: 280px;
+		font-size: 20px;
+	}
+}
+
+
+
+/*hero section ends here*/
+/*main section starts here*/
+
+main > section > .about-section{
+	background-color: #FAFAFA;
+	padding-top: 120px;
+}
+main > section > .about-section > .about-me{
+	text-align: center;
+}
+main > section > .about-section > .about-me > h1{
+	font-size: 50px;
+	font-family: sans-serif;
+	padding-bottom: 25px;
+}
+main > section > .about-section > .about-me > p{
+	font-size: 20px;
+}
+main > section > .about-section > .about-description > .about-text{
+	padding-left: 130px;
+	display: flex;
+	padding-top: 50px;
+}
+main > section > .about-section > .about-description > .about-text > h2{
+	font-weight: bolder;
+	font-size: 30px;
+	margin-top: 20px;
+}
+main > section > .about-section > .about-description > .about-text > h2 > p{
+	font-size: 20px;
+	width: 400px;
+	padding-top: 25px;
+	color: grey;
+	padding-bottom: 20px;
+}
+main > section > .about-section > .about-description > .about-text > h2 > a{
+	color: black;
+	text-decoration: none;
+	border: 2px solid orange;
+	padding: 15px 30px;
+	justify-content: center;
+	background-color: orange; 
+	font-weight: bolder;
+	font-size: 20px;
+}
+main > section > .about-section > .about-description > .about-text > .myskills{
+	display: flex;
+}
+main > section > .about-section > .about-description > .about-text > .myskills > h3{
+	margin-top: 15px;
+	margin-left: 300px;
+	font-size: 30px;
+}
+main > section > .about-section > .about-description > .about-text > .myskills > h3 >span{
+	border: 2px grey;
+	border-radius: 5px;
+	padding: 10px 10px;
+	background-color: #E7E7E7; 
+	margin: 3px;
+	font-size: 20px;
+}
+/*media query starts here*/
+@media screen and (max-width: 1080px) {
+	main > section > .about-section > .about-description > .about-text > .myskills > h3 > span{
+		display: inline-flex;
+		margin: 0px;
+		font-size: 18px;
+	}
+}
+/*about section ends here*/
+
+/*project section starts here*/
+main > section > .project-section > .project > h2{
+	text-align: center;
+	padding-top: 140px;
+	font-size: 30px;
+}
+main > section > .project-section > .project > p{
+	text-align: center;
+	font-size: 20px;
+	padding-top: 30px;
+	padding-bottom: 100px;
+}
+main > section > .project-section > .project > .project-description > .project-image{
+	display: flex;
+	margin-left: 100px;
+	align-items: center;
+}
+main > section > .project-section > .project > .project-description > .project-image > .project-text{
+	margin-top: 50px;
+	margin-left: 50px;
+}
+main > section > .project-section > .project > .project-description > .project-image > img{
+	width: 700px;
+	height: 400px;
+	margin-left: 50px;
+}
+main > section > .project-section > .project > .project-description > .project-image > .project-text > a{
+	color: black;
+	text-decoration: none;
+	border: 2px solid orange;
+	padding: 15px 30px;
+	background-color: orange; 
+	font-weight: bolder;
+	font-size: 20px;
+}
+main > section > .project-section > .project > .project-description > .project-image > .project-text > p{
+	font-size: 20px;
+	padding-bottom: 30px;
+}
+main > section > .project-section > .project > .project-description > .project-image > .project-text > h2{
+	font-size: 30px;
+	padding-bottom: 30px;
+}
+main > section > .project-section > .project > .project-description > .project-image2{
+	display: flex;
+	margin-left: 100px;
+	align-items: center;
+}
+main > section > .project-section > .project > .project-description > .project-image2 > img{
+	width: 700px;
+	height: 500px;
+	margin-left: 50px;
+	padding-top: 100px;
+}
+main > section > .project-section > .project > .project-description > .project-image2 > .project-text2 > p{
+	font-size: 20px;
+	padding-top: 25px;
+	padding-bottom: 40px;
+}
+main > section > .project-section > .project > .project-description > .project-image2 > .project-text2{
+	padding-top: 150px;
+	margin-left: 70px;
+}
+main > section > .project-section > .project > .project-description > .project-image2 > .project-text2 > a{
+	color: black;
+	text-decoration: none;
+	border: 2px solid orange;
+	padding: 15px 30px;
+	background-color: orange; 
+	font-weight: bolder;
+	font-size: 20px;
+}
+main > section > .project-section > .project > .project-description > .project-image3{
+	display: flex;
+	margin-left: 10px;
+	align-items: center;
+}
+main > section > .project-section > .project > .project-description > .project-image3 > img{
+	width: 700px;
+	height: 500px;
+	margin-left: 140px;
+	padding-top: 110px;
+}
+main > section > .project-section > .project > .project-description > .project-image3 > .project-text3{
+	padding-top: 50px;
+	margin-left: 90px;
+}
+main > section > .project-section > .project > .project-description > .project-image3 > .project-text3 > p{
+	font-size: 20px;
+	padding-top: 25px;
+	padding-bottom: 40px;
+}
+main > section > .project-section > .project > .project-description > .project-image3 > .project-text3 > a{
+	color: black;
+	text-decoration: none;
+	border: 2px solid orange;
+	padding: 15px 30px;
+	background-color: orange; 
+	font-weight: bolder;
+	font-size: 20px;
+}
+main > section > .project-section > .project > .project-description > .project-image4{
+	display: flex;
+	margin-left: 10px;
+	align-items: center;
+}
+main > section > .project-section > .project > .project-description > .project-image4 > img{
+	width: 700px;
+	height: 500px;
+	margin-left: 140px;
+	padding-top: 110px;
+	margin-bottom: 150px;
+}
+main > section > .project-section > .project > .project-description > .project-image4 > .project-text4{
+	padding-top: 50px;
+	margin-left: 110px;
+}
+main > section > .project-section > .project > .project-description > .project-image4 > .project-text4 > p{
+	font-size: 20px;
+	padding-top: 25px;
+	padding-bottom: 40px;
+}
+main > section > .project-section > .project > .project-description > .project-image4 > .project-text4 > a{
+	color: black;
+	text-decoration: none;
+	border: 2px solid orange;
+	padding: 15px 30px;
+	background-color: orange; 
+	font-weight: bolder;
+	font-size: 20px;
+}
+
+/* On screens that are 1080px */
+@media screen and (max-width: 1080px) {
+	main > section > .project-section > .project > .project-description > .project-image{
+		display: grid;
+	}
+	main > section > .project-section > .project > .project-description > .project-image > .project-text{
+		text-align: center;
+		margin-left: 0px;
+		padding-bottom: 60px;
+	}
+	main > section > .project-section > .project > .project-description > .project-image > .project-text > p{
+		font-size: 12px;
+	}
+	main > section > .project-section > .project > .project-description > .project-image2 > .project-text2{
+		padding-top: 60px;
+		padding-bottom: 60px;
+	}
+	main > section > .project-section > .project > .project-description > .project-image2{
+		display: grid;
+	}
+	main > section > .project-section > .project > .project-description > .project-image2 > .project-text2{
+		text-align: center;
+		margin-left: 0px;
+	}
+	main > section > .project-section > .project > .project-description > .project-image2 > .project-text2 > p{
+		font-size: 12px;
+	}
+	main > section > .project-section > .project > .project-description > .project-image3{
+		display: grid;
+	}
+	main > section > .project-section > .project > .project-description > .project-image3 > .project-text3{
+		text-align: center;
+		margin-left: 0px;
+		padding-bottom: 60px;
+	}
+	main > section > .project-section > .project > .project-description > .project-image3 > .project-text3 > p{
+		font-size: 12px;
+	}
+	main > section > .project-section > .project > .project-description > .project-image4{
+		display: grid;
+		padding-bottom: 200px;
+	}
+	main > section > .project-section > .project > .project-description > .project-image4 > img{
+		margin-bottom: 0px;
+	}
+	main > section > .project-section > .project > .project-description > .project-image4 > .project-text4{
+		text-align: center;
+		margin-left: 0px;
+		padding-top: 60px;
+	}
+	main > section > .project-section > .project > .project-description > .project-image4 > .project-text4 > p{
+		font-size: 12px
+	}
+}
+
+
+/*projects section ends here
+/*contact-me section starts here*/
+main >section > .contact-section {
+	background-color: #F2F2F2;
+	background-size: cover;
+	padding-top: 150px;
+	padding-bottom: 150px;
+}
+main > section > .contact-section > .contact-me {
+	text-align: center;
+}
+main > section > .contact-section > .contact-me .form{
+	max-width: 600px;
+	background: #f1f1f1;
+	box-sizing: border-box;
+	background-color: ;
+	margin: auto;
+	border: 8px solid grey;
+	padding: 30px 25px;
+	border-radius: 28px;
+	padding-bottom: 50px;
+
+}
+main > section > .contact-section > .contact-me > h2 {
+	font-family: sans-serif;
+	font-size: 40px;
+	padding-bottom: 30px;
+}
+main > section > .contact-section > .contact-me p{
+	color: grey;
+	padding-bottom: 30px;
+	font-size: 20px;
+}
+main > section > .contact-section > .contact-me > .form {
+
+}
+main > section > .contact-section > .contact-me > .form > label{
+	display: block;
+	text-align: left;
+	color: pink;
+	text-transform: uppercase;
+	font-size: 22px;
+}
+main > section > .contact-section > .contact-me > .form > input, .form textarea{
+	width: 100%
+	border: none;
+	background: none;
+	outline: none;
+	font-size: 23px;
+	margin: 25px;
+}
+main > section > .contact-section > .contact-me > .form > div > a{
+	color: black;
+	text-decoration: none;
+	border: 2px solid orange;
+	padding: 15px 30px;
+	background-color: orange; 
+	font-weight: bolder;
+	font-size: 20px;
+}
+main > section > form > input{
+	font-size: 20px;
+}
+main > section > form{
+	font-size: 18px;
+	text-align: center;
+	background-color: #F2F2F2;
+	color: gray;
+	padding-bottom: 5px;
+}
+
+/* On screens that are 1080px */
+@media screen and (max-width: 1080px) {
+	main > section > .contact-section > .contact-me > .form{
+		margin: auto;
+	}
+	main > section > form > p{
+		font-size: 10px;
+	}	
+}
+/*contact section ends here*/
+/*main section ends here*/
+
+
+/*footer scetion starts here*/
+footer > .footer-section{
+	background-color: #000000;
+	height: 400px;
+}
+footer > .footer-section > .footer-name{
+	color: pink;
+	padding-top: 80px;
+	margin-left: 120px;
+	display: flex;
+}
+footer > .footer-section > .footer-name > h2{
+	font-size: 30px;
+}
+footer > .footer-section > .footer-name > h3{
+	margin-left: 800px;
+	font-size: 30px;
+}
+footer > .footer-section > .footer-text > p{
+	color: pink;
+	margin-left: 120px;
+	padding-top: 30px;
+}
+footer > .footer-section > .footer-text > span{
+	text-decoration: none;
+	font-size: 30px;
+	margin-left: 1150px;
+}
+footer > .footer-section > hr{
+	margin-top: 50px;
+	margin-left: 120px;
+	margin-right: 153px;
+	margin-bottom: 40px;
+}
+footer > .footer-section > span{
+	color: pink;
+	margin-left: 340px;
+	font-size: 18px;
+}
+footer > .footer-section > span > a{
+	color: pink;
+}
+footer > .footer-section > a{
+	color: pink;
+	margin-left: 117px;
+}
+
+
+/* On screens that are 1080px */
+@media screen and (max-width: 1080px) {
+	footer > .footer-section > span {
+		margin-left: 320px;
+	}
+	footer > .footer-section > .footer-text > span{
+		margin-left: 760px;
+	}
+	footer > .footer-section > .footer-name > h3{
+		margin-left: 420px;
+	}
+}
+/*footer section ends here*/
